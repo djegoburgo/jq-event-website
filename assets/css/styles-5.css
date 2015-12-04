@@ -614,6 +614,13 @@ select {
   opacity: 1;
 }
 /* ======= Menus Section ======= */
+
+.btn-secondary-structure {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
 .menus-section {
   padding-top: 60px;
   padding-bottom: 60px;

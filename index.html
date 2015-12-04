@@ -277,11 +277,11 @@
                                             <span class="mask-inner">
                                                 <span class="item-title script">Structure réceptives</span>
                                             
-                                                <span class="btn btn-secondary desc text-center" data-toggle="modal" data-target="#logistic-modal-6">L'igloo</span>
+                                                <span class="btn btn-secondary-structure desc text-center" data-toggle="modal" data-target="#logistic-modal-6" style="margin-bottom: 3px">L'igloo</span>
                                                 
-                                                <span class="btn btn-secondary desc text-center" data-toggle="modal" data-target="#logistic-modal-6">Petit Motorhome</span>
+                                                <span class="btn btn-secondary-structure desc text-center" data-toggle="modal" data-target="#logistic-modal-4" style="margin-bottom: 3px">Petit Motorhome</span>
                                                 
-                                                <span class="btn btn-secondary desc text-center" data-toggle="modal" data-target="#logistic-modal-6">Grand Motorhome</span>
+                                                <span class="btn btn-secondary-structure desc text-center" data-toggle="modal" data-target="#logistic-modal-5">Grand Motorhome</span>
                                                 
                                             </span><!--//mask-inner-->
                                         </a><!--//mask-->
@@ -299,7 +299,7 @@
                                 <div class="media-item">
                                     <div class="media-item-inner">
                                         <img class="img-responsive" src="assets/images/structures/petitMH3.JPG" alt="">
-                                        <a class="mask" data-gallery href="#" class="more-link" data-toggle="modal" data-target="#logistic-modal-4">
+                                        <a class="mask" data-gallery href="#" class="more-link" data-toggle="modal" data-target="#logistic-modal-#">
                                             <span class="mask-inner">
                                                 <span class="item-title script">Création & sécurisation pistes</span>
                                                 <span class="desc">Nous disposons de trois structures d’accueil différentes: le grand motorhome, le petit motorhome et l’Igloo. Ces structures réceptives répondent à une grande variété de demandes pour satisfaire nos clients au maximum.</span>
@@ -320,7 +320,7 @@
                                 <div class="media-item">
                                     <div class="media-item-inner">
                                         <img class="img-responsive" src="assets/images/structures/grandMH3.JPG" alt="">
-                                        <a class="mask" data-gallery href="#" class="more-link" data-toggle="modal" data-target="#logistic-modal-5">
+                                        <a class="mask" data-gallery href="#" class="more-link" data-toggle="modal" data-target="#logistic-modal-#">
                                             <span class="mask-inner">
                                                 <span class="item-title script">Frêt Maritime</span>
                                                 <span class="desc">Texte concernant le frêt Nous avons une flotte de véhicules et de matériel spécifique à notre métier, qui se déploie vite et de manière flexible pour être auprès de nos clients le plus rapidement possible.</span>
@@ -891,18 +891,17 @@ TVA intracommunautaire FR20511249302.</p>
                         <div class="video text-center">
 
                             <div class="modal-body">
-                                <iframe id="videowrapper" width="560" height="315" src="" data-iframe-src="https://www.youtube.com/embed/9ka5bgHnHyg?autoplay=true" frameborder="0" allowfullscreen></iframe>
+                                <iframe id="videowrapper" width="560" height="315" src="" data-iframe-src="https://www.youtube.com/embed/KjErv7gbYgE?autoplay=true" frameborder="0" 
+
+                                allowfullscreen></iframe>
                             </div>
 
-                            <video controls style="width: 650px">
-                                <source src="assets/images/structures/petit_motor_home.mp4" poster="assets/images/igloo.mp4" type="video/mp4">
-                                          Nous sommes désolés, votre navigateur ne supporte pas la vidéo HTML5.
-                            </video>
                         </div>
                         <div class="post ">
                             <p><img class="img-responsive" src="assets/images/structures/petitMH1.JPG" alt="" /></p>
                            <p><img class="img-responsive" src="assets/images/structures/petitMH2.JPG" alt="" /></p>
                            <p><img class="img-responsive" src="assets/images/structures/petitMH3.JPG" alt="" /></p>
+                            <p><img class="img-responsive" src="assets/images/structures/petitMH3.jpg" alt="" /></p>
                          </div>
                     </div>
                           
@@ -926,10 +925,9 @@ TVA intracommunautaire FR20511249302.</p>
                 </div><!--//modal-header-->
                 <div class="modal-body">
                     <div class="video text-center">
-                        <video controls style="width: 650px">
-                            <source src="assets/images/structures/grand_motor_home.mp4" poster="assets/images/igloo.mp4" type="video/mp4">
-                                          Nous sommes désolés, votre navigateur ne supporte pas la vidéo HTML5.
-                        </video>
+                            <div class="modal-body">
+                                <iframe id="videowrapper2" width="560" height="315" src="" data-iframe-src="https://www.youtube.com/embed/9GVnHrm_aRo?autoplay=true" frameborder="0" allowfullscreen></iframe>
+                            </div>
                     </div>
                      <div class="post ">
                          <p><img class="img-responsive" src="assets/images/structures/grandMH1.JPG" alt="" /></p>
@@ -998,7 +996,8 @@ TVA intracommunautaire FR20511249302.</p>
     <script type="text/javascript" src="assets/plugins/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.min.js"></script>  
 
     <!--//HomeMade JS -->
-    <script type="text/javascript" src="assets/js/videomodal.js"></script>
+    <script type="text/javascript" src="assets/js/videomodalpetitMH.js"></script>
+    <script type="text/javascript" src="assets/js/videomodalgrandMH.js"></script>
         
     <!-- Form iOS fix -->
     <script type="text/javascript" src="assets/plugins/isMobile/isMobile.min.js"></script>
