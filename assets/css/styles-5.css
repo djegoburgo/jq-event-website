@@ -487,14 +487,14 @@ select {
   background-size: cover;
 }
 .bg-slider-wrapper .flexslider .slide.slide-2 {
-  background: #666 url('../images/hero/hero-2.jpg') no-repeat 50% 50%;
+  background: #666 url('../images/hero/hero-4.png') no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-slider-wrapper .flexslider .slide.slide-3 {
-  background: #666 url('../images/hero/hero-3.jpg') no-repeat 50% 50%;
+  background: #666 url('../images/hero/hero-5.png') no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1108,7 +1108,7 @@ select {
 .about-section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: #f5f5f5 url('../images/about-bg.jpg') no-repeat center top;
+  background: #f5f5f5 url('../images/about-bg.png') no-repeat center top;
   background-size: cover;
   color: #fff;
 }
