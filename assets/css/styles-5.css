@@ -494,7 +494,7 @@ select {
   background-size: cover;
 }
 .bg-slider-wrapper .flexslider .slide.slide-3 {
-  background: #666 url('../images/hero/hero-5.jpg') no-repeat 50% 50%;
+  background: #666 url('../images/hero/hero-5.jpg ') no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
